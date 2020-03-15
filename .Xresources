@@ -50,7 +50,8 @@
 ! === URxvt ===
 
 URxvt.scrollBar: false
-URxvt.font: xft:Roboto Mono for Powerline:size=16,  Noto Color Emoji:style=Regular
+URxvt.font: xft:FiraCode Nerd Font:style=Regular:size=16
+URxvt.letterSpace: -1
 URxvt.internalBorder: 10
 ! Clickable urls
 URxvt.url-select.underline:     true
@@ -60,7 +61,5 @@ URxvt.matcher.button:           1
 URxvt*iso14755:                 false
 URxvt.keysym.Shift-Control-C:   perl:clipboard:copy
 URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
-URxvt.letterSpace:              -1
-URxvt.lineSpace:                2
 
 i3wm.background: #132738

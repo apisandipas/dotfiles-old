@@ -1,6 +1,5 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export LC_COLLATE='C'
-
 export ZSH="/home/bryan/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
@@ -18,8 +17,10 @@ fi
 # Aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+alias ls='lsd'
 alias ll='ls -alh'
 alias add='sudo apt install'
+alias vim ='nvim'
 
 # Functions
 mkcd() { mkdir -p "$1" && cd "$1"; }
